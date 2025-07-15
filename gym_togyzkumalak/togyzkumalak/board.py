@@ -77,6 +77,8 @@ class Board:
 
     def move(self, action):
         # self.run.initialize()
+        # print(f"Ход игрока {self.run.name} с лунки №{action + 1}")
+        # self.print()
         opponent_atsyrau = self.opponent.atsyrau()
         done = False
         info = {}
